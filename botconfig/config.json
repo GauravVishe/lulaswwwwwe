@@ -1,0 +1,70 @@
+{
+  "token": "",
+"mongo": "mongodb+srv://vishalop:vishalop159@violent.vnvvz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "prefix": "$",
+  "loadSlashsGlobal": true,
+  "_COMMENT_": "Set it to true, when your Slash Commands are ready, false loads instant true loads slow but stable! (GLOBAL/GUILD COMMANDS, DISCORD DOCS!)",
+  "slashCommandsDirs": [
+    {
+      "Folder": "Info",
+      "CmdName": "info",
+      "CmdDescription": "Grant specific Information about something!"
+    },
+    {
+      "Folder": "Admin",
+      "CmdName": "admin",
+      "CmdDescription": "Administrate the Server!"
+    }
+  ],
+  "clientsettings": {
+    "nodes": [
+      {
+        "host": "disbotlistlavalink.ml",
+        "port": 443,
+        "password": "LAVA",
+        "secure": true
+      },
+      {
+        "host": "lavalink-repl.parasop.repl.co",
+        "port": 443,
+        "password": "youshallnotpass",
+        "secure": true
+      },
+      {
+        "host": "main.paras888.repl.co",
+        "port": 443,
+        "password": "youshallnotpass",
+        "secure": true
+      }
+    ]
+  },
+  "spotify": {
+    "clientSecret": "bdbfea29444c451d95c03581480e34ae",
+    "clientID": "be8b7b2b80c5464bb85bb30bb632e236"
+  },
+  "settings": {
+    "COMMENT": "time_delay 0 === insta leave",
+    "progressbar_emoji": ":<:s_progress:866946355891929098>",
+    "leaveOnEmpty_Channel": {
+      "enabled": false,
+      "time_delay": 180000
+    },
+    "LeaveOnEmpty_Queue": {
+      "enabled": false,
+      "time_delay": 180000
+    },
+    "selfDeaf": true,
+    "serverDeaf": true
+  },
+  "links": {
+    "server": "https://discord.gg/KNWKXQS4gX",
+    "opbotinv": "https://discord.com/oauth2/authorize?client_id=804211921678368798&permissions=8&scope=bot",
+    "opmusicinv": "https://discord.com/oauth2/authorize?client_id=804211921678368798&permissions=8&scope=bot",
+    "opmusicvote": ""
+  },
+  "ownerIDS": [
+    "888484021519134741",
+    "902976809702940674",
+    ""
+  ]
+}
